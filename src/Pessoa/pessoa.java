@@ -22,7 +22,7 @@ public class pessoa {
     public int getIdade() {
         return idade;
     }
-
+    
     public void setIdade(int idade) {
         this.idade = idade;
     }
@@ -33,5 +33,9 @@ public class pessoa {
 
     public void setCpf(String cpf) {
         this.cpf = cpf;
+    }
+
+    public String toString(){
+        return "Nome:" + nome +", " + " Idade:" + idade + ", " +" CPF:" + cpf;
     }
 }

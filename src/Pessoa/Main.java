@@ -8,10 +8,6 @@ public class Main {
         pessoa1.setIdade(48);
         pessoa1.setCpf("323256598");
 
-        System.out.println(pessoa1.getNome());
-        System.out.println(pessoa1.getIdade());
-        System.out.println(pessoa1.getCpf());
-
-
+        System.out.println(pessoa1.toString());
     }
 }
